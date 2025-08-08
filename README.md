@@ -10,8 +10,6 @@ Online Shop Experience Review App with local storage persistence.
 - Responsive design for all screen sizes
 - Data store on localStorage
 
-## Setup Instructions
-
 ## Installation
 
 ### Clone the repository
