@@ -6,13 +6,6 @@ Online Shop Experience Review App with local storage persistence.
 ## Live Link
 - 📖 [Click To View](https://online-shop-experience-review-app.vercel.app/)
 
-## Features
-
-- Add reviews with shop name, star rating, and comments
-- Edit or delete existing reviews
-- Filter reviews by shop name or star rating
-- Responsive design for all screen sizes
-- Data store on localStorage
 
 ## Installation
 
@@ -31,8 +24,6 @@ npm install
 npm run dev 
 ```
 
-
-
 ## Time Taken
 
 Approximately 5-6 hours.
@@ -44,3 +35,12 @@ Approximately 5-6 hours.
 3. **Pagination**: Add pagination for large review lists
 4. **Admin Dashboard**: Create analytics dashboard with charts for review statistics.
 5. **Featured Reviews Slider**: Create homepage carousel for top-rated reviews
+
+
+## Features
+
+- Add reviews with shop name, star rating, and comments
+- Edit or delete existing reviews
+- Filter reviews by shop name or star rating
+- Responsive design for all screen sizes
+- Data store on localStorage
