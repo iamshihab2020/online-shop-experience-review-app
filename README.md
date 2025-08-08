@@ -12,9 +12,24 @@ Online Shop Experience Review App with local storage persistence.
 
 ## Setup Instructions
 
-1. Clone the repository: `git clone [https://github.com/iamshihab2020/online-shop-experience-review-app.git]`
-2. Install dependencies: `npm install`
-3. Run the app: `npm run dev`
+## Installation
+
+### Clone the repository
+```bash
+git clone https://github.com/iamshihab2020/online-shop-experience-review-app.git
+```
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run the app
+```bash
+npm run dev 
+```
+
+
 
 ## Time Taken
 
