@@ -32,7 +32,7 @@ const ReviewForm = ({ onSubmit }) => {
   };
 
   return (
-    <div className="bg-[#FAFBFD] p-5  mb-8 border border-gray-100 rounded-2xl shadow-md">
+    <div className="bg-[#FAFBFD] p-5  border border-gray-100 rounded-2xl shadow-md">
       <h2 className="text-xl font-semibold mb-5 text-gray-800">
         Share Your Experience
       </h2>
@@ -70,7 +70,7 @@ const ReviewForm = ({ onSubmit }) => {
           <textarea
             value={reviewText}
             onChange={(e) => setReviewText(e.target.value)}
-            className="w-full p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 border border-gray-300"
+            className="w-full min-h-48 p-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 border border-gray-300"
             rows="4"
             placeholder="Share your shopping experience..."
             required

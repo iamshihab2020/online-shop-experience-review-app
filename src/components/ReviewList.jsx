@@ -1,5 +1,6 @@
 import { useState } from "react";
 import StarRating from "./StarRating";
+import { FaEdit } from "react-icons/fa";
 
 const ReviewList = ({ reviews, onUpdate, onDelete }) => {
   const [editingId, setEditingId] = useState(null);
@@ -45,7 +46,7 @@ const ReviewList = ({ reviews, onUpdate, onDelete }) => {
   }
 
   return (
-    <div className="bg-white p-5 rounded-xl shadow-md border border-gray-100">
+    <div className="bg-white p-5 rounded-xl shadow-md border border-gray-100 h-full lg:max-h-[72vh] lg:overflow-y-scroll">
       <h2 className="text-xl font-semibold text-gray-800 mb-5">
         Customer Reviews ({reviews.length})
       </h2>
@@ -127,8 +128,9 @@ const ReviewList = ({ reviews, onUpdate, onDelete }) => {
                   <div className="flex space-x-2">
                     <button
                       onClick={() => handleEditClick(review)}
-                      className="text-blue-600 hover:text-blue-800 transition-colors duration-200"
+                      className="flex items-center gap-x-1.5 font-semibold text-blue-600 hover:text-blue-800 transition-colors duration-200"
                     >
+                      <FaEdit />
                       Edit
                     </button>
                     <button
