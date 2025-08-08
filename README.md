@@ -2,6 +2,10 @@
 
 Online Shop Experience Review App with local storage persistence.
 
+
+## Live Link
+- 📖 [ClickTo View](https://online-shop-experience-review-app.vercel.app/)
+
 ## Features
 
 - Add reviews with shop name, star rating, and comments
