@@ -4,7 +4,7 @@ Online Shop Experience Review App with local storage persistence.
 
 
 ## Live Link
-- 📖 [ClickTo View](https://online-shop-experience-review-app.vercel.app/)
+- 📖 [Click To View](https://online-shop-experience-review-app.vercel.app/)
 
 ## Features
 
